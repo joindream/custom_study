@@ -1,0 +1,3 @@
+mPaint.setAntiAlias(true);//抗锯齿
+mPaint.setStyle(Style.FILL);//画笔风格-实心or空心
+TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 20, context.getResources().getDisplayMetrics());//20sp格式化尺寸
